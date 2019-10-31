@@ -1,12 +1,10 @@
-#!/usr/bin/env python2.7
+import setuptools
 
-from setuptools import setup
-
-setup(
+setuptools.setup(
     name='auto-selfcontrol',
     version='1.0',
     description='Small utility to schedule start and stop times of SelfControl',
     url='github.com/andreasgrill/auto-selfcontrol',
     long_description=open('README.md').read(),
-    install_requires=["pyobjc", "pyobjc-core"]
+    packages=setuptools.find_packages()
 )
