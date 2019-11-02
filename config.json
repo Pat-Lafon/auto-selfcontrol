@@ -3,16 +3,19 @@
     "selfcontrol-path": "/Applications/SelfControl.app",
     "host-blacklist": [
         "twitter.com",
+        "instagram.com",
         "reddit.com",
         "news.ycombinator.com",
-        "youtube.com"
+        "youtube.com",
+        "nytimes.com",
+        "latimes.com"
     ],
-    "block-schedules":[
+    "block-schedules": [
         {
             "start-hour": 0,
             "start-minute": 0,
             "end-hour": 23,
-            "end-minute": 59
+            "end-minute": 0
         }
     ]
 }
