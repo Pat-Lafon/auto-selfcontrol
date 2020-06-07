@@ -1,3 +1,6 @@
+venv
+dist
+auto_selfcontrol.egg-info
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
